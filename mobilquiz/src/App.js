@@ -11,7 +11,7 @@
 
 //choose theme/quiz/topic or choose tasks which is more of a learning experience.
   //after username show two options, tasks or quiz. also display a symbol for opening overlay menu with the cheatsheet/s
-    //
+    // quiz and tasks that leads to topic choice 
 
 
 
@@ -72,6 +72,16 @@
 //on hover show seperate scores for quiz and tasks.
 
 
+
+//app
+  // header <-- username
+  // mainpage --> username
+    // switch betwene content
+    // create user
+    // quiz
+    // tasks
+    // cheetsheet
+  // footer
 
 
 
