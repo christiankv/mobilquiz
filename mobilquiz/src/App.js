@@ -4,7 +4,8 @@
     //text field for username, is presistent, stays on each page.
       //saves to local storage
         //check local storage for username, if detected skip create username.
-
+          //choose username: basic page layout, texfield, confirm button. confirming username creates local storage file and takes you to next page.
+            //code: basic html page layout with header and footer
 
 
 
@@ -35,8 +36,40 @@
       //transparent background? how many tips/topics?
 
 
+   
 
 
+                //*module section*
+
+  //#header module#
+    //contains username and overall points/score, seperate scores for tasks and quiz
+
+
+
+  //#startpage module#
+    //skipped if username detected.
+      //contains the textfield for usename input + confirm button.
+        //footer module on display here.
+
+
+  //#mainpage module# 
+    //contains all the elements + the quiz and tasks.
+
+
+  //#quiz module#
+    //more free-flowing faster paced simpler design
+
+
+  //#tasks module#
+    // more static, wrong or correct chosen answers have visual pointers/cues.
+      //choose topic, javascript, html etc..
+
+
+                //*ideas section*
+      
+//cheatsheets, on hover display text saying cheatsheets.
+
+//on hover show seperate scores for quiz and tasks.
 
 
 
