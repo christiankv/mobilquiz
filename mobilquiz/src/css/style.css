@@ -19,6 +19,7 @@ body{
 
 
 .container{
+    width: 100vw;
     height: 100vh;
     grid-auto-flow: column;
     display: grid;
@@ -31,6 +32,7 @@ body{
     ;
 }
 .header{
+    /* position: absolute; */
     width: 100vw;
     grid-area: 'header';
     display: flex;
@@ -44,6 +46,45 @@ body{
     grid-area: "main";
     color: #EEEEEE;
 }
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+  
+.username{
+    background-color: #00ADB5; 
+    padding: 0.75em 4.25em;
+    border-radius: 5em;
+    font-size: 1em;
+    color: black;
+}  
+#username{
+    font-size: 0.75em;
+
+    border: none;
+    background-color:#00ADB5 ;
+    padding-bottom:2px;
+    border-bottom: dotted black 0.5em;
+}
+#username:focus{
+    outline: none;
+}
+.createuser-button{
+    color: black;
+    background-color: #00ADB5; 
+    width: fit-content;
+    padding: 1.75em 7.25em;
+    border-radius: 5em;
+}
+.createuser-button:hover{
+    background-color: #04747a; 
+}
+
+
+
 
 .footer{
     grid-area: 'footer';
