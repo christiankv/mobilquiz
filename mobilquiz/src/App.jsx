@@ -112,6 +112,11 @@ import Footer from "./moduls/footer"
 
 function App() {
   const [username, setusername] = React.useState("hey")
+
+  function createUser(){
+
+  }
+  
   return (
     <>
     <Header username= {username}/>
