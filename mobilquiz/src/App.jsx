@@ -1,3 +1,7 @@
+//This programme will 
+
+import React from "react";
+
 // App and Page functionality 
 
 //choose username then begin.
@@ -101,9 +105,19 @@
 
 
 
+import Header from "./moduls/header"
+import Main from "./moduls/main"
+import Footer from "./moduls/footer"
+
+
 function App() {
+  const [username, setusername] = React.useState("hey")
   return (
-    <p>test</p>
+    <>
+    <Header username= {username}/>
+    <Main/>
+    <Footer/>
+    </>
   );
 }
 
