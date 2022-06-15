@@ -1,7 +1,7 @@
 export default function Main(){
+
     return(
-        <>
-        <p>laget av random folk</p>
-        </>
+        <div className="main"><p>laget av random folk</p></div>
+
     )
 }
