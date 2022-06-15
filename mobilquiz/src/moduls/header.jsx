@@ -2,8 +2,10 @@
 
 export default function Header(prop){
     return(
-        <>
-        {prop.username}
-        </>
+        <div className="header"> 
+            <h3>{prop.username}</h3>
+            <p>{prop.points}</p>
+        </div>
+
     )
 }

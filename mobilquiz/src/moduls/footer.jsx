@@ -1,7 +1,8 @@
 export default function Footer(){
     return(
-        <>
-        <p>laget av random folk</p>
-        </>
+        <div className="footer">
+          <p>laget av random folk</p>  
+        </div>
+
     )
 }

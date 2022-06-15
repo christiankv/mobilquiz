@@ -108,21 +108,42 @@ import React from "react";
 import Header from "./moduls/header"
 import Main from "./moduls/main"
 import Footer from "./moduls/footer"
+import style from "./css/style.css"
 
 
 function App() {
-  const [username, setusername] = React.useState("hey")
+  const [username, setusername] = React.useState("username")
 
   function createUser(){
 
   }
+
+
+  // const quizQ = {
+  //   q1:{
+  //     question : "random text",
+  //     answer1: [
+  //       "right answer",
+  //       true
+  //     ],
+  //     answer2: [
+  //       "wrong answer",
+  //       false
+  //     ]
+  //   }
+  // }
+  const [points, setPoints] = React.useState(0)
+
   
+
   return (
-    <>
-    <Header username= {username}/>
+    <div className="container">    
+    <Header username= {username} points= {points}/>
     <Main/>
     <Footer/>
-    </>
+    </div>
+
+
   );
 }
 

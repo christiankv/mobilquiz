@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    background-color: rgb(151, 56, 240);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+    padding: 1em;
+    border-radius: 0  0 1em 1em ;
+}
+
+.header>h3, .header>p{
+    color: white;
+    margin: 0;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+    padding: 1em;
+    border-radius: 1em 1em 0 0 ;
+
+}
+
