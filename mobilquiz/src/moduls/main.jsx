@@ -9,8 +9,27 @@ export default function Main(){
           </div>)
     }
 
+    function Quiz(){
+        return(
+            <div className="quiz">
+                <div className="question bgB">
+                    <h3>question?</h3>
+                </div>
+
+                <div className="Choice">
+                    <div className="answers bgB"> <p>3</p></div>
+                    <div className="answers bgB"> <p>2</p></div>
+                    <div className="answers bgB"><p>1</p></div>
+                </div>
+            </div>
+        )
+    }
+
     return(
-        <div className="main"><Login/></div>
+        <div className="main">
+            <Quiz/>
+            {/* <Login/> */}
+            </div>
 
     )
 }

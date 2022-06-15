@@ -135,9 +135,9 @@ function App() {
   
 
   return (
-    <div className="container">    
-    <Header username= {username} points= {points}/>
-    <Main />
+    <div className="container">
+    <Header username={username} points={points}/>
+    <Main/>
     <Footer/>
     </div>
 
