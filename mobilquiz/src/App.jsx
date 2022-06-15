@@ -114,9 +114,7 @@ import style from "./css/style.css"
 function App() {
   const [username, setusername] = React.useState("username")
 
-  function createUser(){
 
-  }
 
 
   // const quizQ = {
@@ -139,7 +137,7 @@ function App() {
   return (
     <div className="container">    
     <Header username= {username} points= {points}/>
-    <Main/>
+    <Main />
     <Footer/>
     </div>
 

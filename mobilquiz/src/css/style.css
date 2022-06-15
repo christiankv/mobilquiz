@@ -2,13 +2,15 @@ body{
     margin: 0;
     background-color: #222831;
     font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
-/* .container{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100vh;
-} */
+
+
+.bgB{
+    background-color: #00ADB5;
+    color: black;
+}
+
 
 
 .header>h3, .header>p{
@@ -38,7 +40,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #00ADB5;
+    /* background-color: #00ADB5; */
     /* padding: 1em; */
     border-radius: 0  0 1em 1em ;
 }
@@ -55,17 +57,19 @@ body{
 }
   
 .username{
-    background-color: #00ADB5; 
+    font-weight: 700;
+    text-transform: uppercase;
+    /* letter-spacing: 0.1px; */
+    /* background-color: #00ADB5;  */
     padding: 0.75em 4.25em;
     border-radius: 5em;
     font-size: 1em;
-    color: black;
+    /* color: black; */
 }  
 #username{
-    font-size: 0.75em;
-
+    /* font-size: 0.75em; */
     border: none;
-    background-color:#00ADB5 ;
+    /* background-color:#00ADB5 ; */
     padding-bottom:2px;
     border-bottom: dotted black 0.5em;
 }
@@ -73,10 +77,13 @@ body{
     outline: none;
 }
 .createuser-button{
-    color: black;
-    background-color: #00ADB5; 
+    font-weight: 800;
+    /* color: black; */
+    /* background-color: #00ADB5;  */
     width: fit-content;
-    padding: 1.75em 7.25em;
+    text-align: center;
+    padding: 1em 0;
+    width: 14em;
     border-radius: 5em;
 }
 .createuser-button:hover{
@@ -88,10 +95,10 @@ body{
 
 .footer{
     grid-area: 'footer';
-    color: black;
+    /* color: black; */
     display: flex;
     justify-content: space-between;
-    background-color: #00ADB5;
+    /* background-color: #00ADB5; */
     /* padding: 1em; */
     border-radius: 1em 1em 0 0 ;
     align-content: center;
