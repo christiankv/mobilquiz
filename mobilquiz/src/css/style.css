@@ -101,7 +101,22 @@ body{
     padding: 1em 2em;
     border-radius: 3em;
 }
+.menu{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Mbutton{
+    width: 10em;
+    text-align: center;
+    border-radius: 3em;
+}
 
+.Mbutton:hover{
+    background-color: #04747a;
+}
 .answers{
     padding: 0.5em 1em;
     border-radius: 3em;

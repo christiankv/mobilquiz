@@ -9,12 +9,26 @@ export default function Main(){
           </div>)
     }
 
+    function Menu(){
+        return(
+            <div className="menu">
+                <div className="Mbutton bgB">
+                    <p>tasks</p>
+                </div>
+                <div className="Mbutton bgB">
+                    <p>quiz</p>
+                </div>
+            </div>
+        )
+    }
+
     function Quiz(){
         return(
             <div className="quiz">
                 <div className="question bgB">
                     <h3>question?</h3>
                 </div>
+
 
                 <div className="Choice">
                     <div className="answers bgB"> <p>3</p></div>
@@ -27,8 +41,9 @@ export default function Main(){
 
     return(
         <div className="main">
-            <Quiz/>
-            {/* <Login/> */}
+            {/* <Quiz/> */}
+            <Login/>
+            {/* <Menu/> */}
             </div>
 
     )
