@@ -9,11 +9,11 @@ landing page will have a login system to track score. also have a skip login to 
 quiz and questions both have topics you can pick.
 when you reach 80% correct questions, completing the quiz will level you up to a higher difficulty 
 new "harder" questions. 3 levels what happens on quiz completion with no question %? you can not do quiz without certain % reached on questions. quiz will serve a previously discussed "exam" purpose.
-there will be 10 questions for the quiz and 10 questions for the task, on either you will have 3 options, which equates to 30 answers each for both quiz and tasks. each level will have the same amount(3 levels) equating to 60 questions, 180 answers
+there will be 10 questions for the quiz and 10 questions for the task, on either you will have 3 options, which equates to 30 answers each for both quiz and tasks. each level will have the same amount(3 levels) equating to 60 questions, 180 answers (oof)
 
 
 1 menu/main page
-this will contain the button for questions, quiz and cheatsheet. choosing questions or quiz will take you to the respective page
+this will contain the button for questions, quiz and cheatsheet. choosing questions or quiz will take you to the respective pages
 
 
 3 cheatsheet sperate page also has topics
