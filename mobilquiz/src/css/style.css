@@ -76,6 +76,13 @@ body{
 #username:focus{
     outline: none;
 }
+.theme{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
 .createuser-button{
     font-weight: 800;
     /* color: black; */
@@ -109,7 +116,9 @@ body{
     align-items: center;
 }
 .Mbutton{
+    font-weight: 600;
     width: 10em;
+    padding: 1em 0;
     text-align: center;
     border-radius: 3em;
 }

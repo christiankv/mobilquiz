@@ -1,5 +1,8 @@
-export default function Main(){
+import React from "react"
+import Quiz from "./Menu-items/quiz"
 
+export default function Main(){
+    const [version, setversion] = React.useState("menu")
     function Login(){
         return( <div className="login ">
             <div className="username bgB">
@@ -12,38 +15,45 @@ export default function Main(){
     function Menu(){
         return(
             <div className="menu">
-                <div className="Mbutton bgB">
-                    <p>tasks</p>
+                <div className="Mbutton bgB" id="task" onClick={menuClick}>
+                    tasks
                 </div>
-                <div className="Mbutton bgB">
-                    <p>quiz</p>
-                </div>
-            </div>
-        )
-    }
-
-    function Quiz(){
-        return(
-            <div className="quiz">
-                <div className="question bgB">
-                    <h3>question?</h3>
-                </div>
-
-
-                <div className="Choice">
-                    <div className="answers bgB"> <p>3</p></div>
-                    <div className="answers bgB"> <p>2</p></div>
-                    <div className="answers bgB"><p>1</p></div>
+                <div className="Mbutton bgB" id="quiz" onClick={menuClick}>
+                    quiz
                 </div>
             </div>
         )
     }
+
+
+
+    // let version = "menu"
+
+    function menuClick(e){
+        const id = e.target.id 
+        setversion(id);
+    }
+    function pageV(version){
+        if (version === "menu"){
+       return (<Menu/>)}
+       else if (version === "task"){
+        return(<Quiz 
+        vers="task"
+        />)
+       }else if (version === "quiz"){
+        return <Quiz 
+        vers = "quiz" />
+       }
+    }
+            {/* <Quiz/> */}
+            {/* <Login/> */}
+            {/* <Menu/> */}
+
+
 
     return(
         <div className="main">
-            {/* <Quiz/> */}
-            <Login/>
-            {/* <Menu/> */}
+            {pageV(version)}
             </div>
 
     )
