@@ -1,6 +1,23 @@
-4 login
-2 quiz
-1 menu
-3 cheetsheet
+4 login/session based
+add a database login system, low priority.
+landing page will have a login system to track score. also have a skip login to play in a session based mode where score will track until app/page closure. place holder system will just be a skip button.
 
 
+
+2 quiz/questions
+
+quiz and questions both have topics you can pick.
+when you reach 80% correct questions, completing the quiz will level you up to a higher difficulty 
+new "harder" questions. 3 levels what happens on quiz completion with no question %? you can not do quiz without certain % reached on questions. quiz will serve a previously discussed "exam" purpose.
+there will be 10 questions for the quiz and 10 questions for the task, on either you will have 3 options, which equates to 30 answers each for both quiz and tasks. each level will have the same amount(3 levels) equating to 60 questions, 180 answers
+
+
+1 menu/main page
+this will contain the button for questions, quiz and cheatsheet. choosing questions or quiz will take you to the respective page
+
+
+3 cheatsheet sperate page also has topics
+add a third button which takes you to the cheatsheeet page, contains different topics/tips and tricks. i.e nice vs studio extensions, hotkeys, common mistakes maybe?
+
+
+topic languages for the app will be html, css and javascript.
