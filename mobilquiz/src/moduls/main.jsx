@@ -1,5 +1,6 @@
 import React from "react"
 import Quiz from "./Menu-items/quiz"
+import Question from "./Menu-items/questions"
 
 export default function Main(){
     const [version, setversion] = React.useState("menu")
@@ -37,7 +38,7 @@ export default function Main(){
         if (version === "menu"){
        return (<Menu/>)}
        else if (version === "task"){
-        return(<Quiz 
+        return(<Question 
         vers="task"
         />)
        }else if (version === "quiz"){
